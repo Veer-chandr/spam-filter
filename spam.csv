@@ -1,0 +1,19 @@
+Category,Message
+ham,"Hi, how are you?"
+spam,"Congratulations! You won a free iPhone. Click here."
+ham,"Let's meet tomorrow at 10 AM."
+spam,"Claim your ₹50,000 reward now."
+ham,"Can you send the assignment?"
+spam,"You have been selected for a lottery."
+ham,"Good morning! Have a nice day."
+spam,"Limited-time offer. Buy now."
+ham,"Please call me when you're free."
+spam,"Your account has won cash prize."
+ham,"Happy Birthday!"
+spam,"Click here to receive your free gift."
+
+data = pd.read_csv("spam.csv")
+
+print(data)
+print("\nMissing values:")
+print(data.isnull().sum())
